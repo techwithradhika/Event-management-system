@@ -6,6 +6,7 @@ Download VisualStudio and Python, Clone the Repository "git clone https://github
 
 In terminal navigate to the current folder and install virtual environment "pip install virtualenv", Create new VENV "python -m virtualenv venv", 
 Activate the VENV ".\venv\Scripts\activate" and also install the dependencies using pip "pip install mysql-connector-python requests fastapi sqlalchemy pydantic uvicorn".
+
 Now first to create the events table to store the data in database, open file "table.py" and replace the hostname, username and password with your credentials.
 and run the table python file in terminal by entering "python table.py".
 after successful running of the pyhon file check if the database "events_database" is created with the table "events" in the localhost.
